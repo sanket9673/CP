@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <vector>
 using namespace std ;
 int main () {
@@ -6,6 +7,7 @@ int main () {
     cin >> n >> m ;
     vector<int> arr ;
     vector<int> arr1 ;
+
 
     for (int i = 0 ; i < n ; i++){
         cin >> element ;
@@ -15,6 +17,7 @@ int main () {
     for (int i = 0; i < n ; i++){
         arr1[i] += m ;
     }
+
     cout << arr1[2] ;
     
     return 0 ;
