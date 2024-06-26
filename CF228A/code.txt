@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std ;
+
+int main() {
+    int s[4] ;
+    int count = 0 ;
+    cin >> s[0] >> s[1] >> s[2] >> s[3] ;
+    int t[4];
+    for (int i = 0; i < 4; ++i) {
+        t[i] = s[i];
+    }
+    for(int i=0; i<4; i++){
+        for(int j=0; j<4; j++){
+            if(i!=j){
+                if(s[i] == s[j] == true){
+                    count++ ;
+                    s[i] = false ;
+                }
+            }
+        }
+    }
+    cout << count;
+
+    return 0 ;
+}
