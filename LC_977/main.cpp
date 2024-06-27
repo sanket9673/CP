@@ -1,3 +1,8 @@
+#include <iostream>
+#include <vector>
+#include <cmath>
+using namespace std ;
+
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
