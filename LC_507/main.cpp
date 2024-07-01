@@ -1,4 +1,7 @@
 #include <iostream>
+#include <cmath>
+#include <map>
+#include <vector>
 using namespace std ;
 
 class Solution {
