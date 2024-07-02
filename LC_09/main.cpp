@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#include <vector>
 using namespace std ;
 
 class Solution {
@@ -20,7 +22,7 @@ public:
             if (num1 == x){
                 return true;
             }
-            
+
             else {
                 return false;
             }
