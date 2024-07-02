@@ -16,9 +16,11 @@ public:
                 num1 = num1 * 10 + digit ;
                 num /= 10 ;
                 }
+
             if (num1 == x){
                 return true;
             }
+            
             else {
                 return false;
             }
