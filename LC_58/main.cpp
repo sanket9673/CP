@@ -9,7 +9,8 @@ public:
             if (s[i] == ' ' && isalpha(s[i + 1])) {
                 break ;
             }
-            if (isalpha(s[i])) {
+            
+            else if (isalpha(s[i])) {
                 count++ ;
             }
         }
