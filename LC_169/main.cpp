@@ -13,6 +13,7 @@ public:
         // [1,1,1,2,2,2,2] == 7 == 7 / 2 == 3 >
         int mx = 1 ;
         int i = 0 ;
+        
         while (i < nums.size() - 1) {
             if (nums[i] == nums[i + 1]) {
                 mx++ ;
