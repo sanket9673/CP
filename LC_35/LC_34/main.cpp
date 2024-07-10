@@ -2,6 +2,11 @@
 #include <vector>
 using namespace std ;
 
+// TIME COMPLEXITY OF THIS CODE IS O(N) AND NOT O(LOG[N]) 
+
+// FOR O(LOG[N]), WE SHOULD USE HERE BINARY SEARCH TO FIND THE 1. FIRST OCCURENCE AND 2. LAST OCCURENCE 
+// OF ELEMENT WITH BINARY SEARCH
+
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
