@@ -30,6 +30,7 @@ public:
                     s = i ;
                 }
             }
+            
             if (f == -1) {
                 return nt ;
             }
