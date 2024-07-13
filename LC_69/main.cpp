@@ -18,9 +18,11 @@ public:
                 res = m;
                 l = m + 1;
             }
+
             else if (m * m > x) {
                 r = m - 1;
             }
+            
             else {
                 return m;
             }
