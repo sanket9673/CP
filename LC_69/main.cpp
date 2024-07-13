@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std ;
 
 class Solution {
@@ -12,7 +13,7 @@ public:
 
         while (l <= r) {
             long long m = l + (r - l) / 2;
-            
+
             if (m * m < x) {
                 res = m;
                 l = m + 1;
