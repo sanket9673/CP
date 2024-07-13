@@ -16,6 +16,7 @@ public:
         int f = -1;
         int s = 0 ;
 
+
         if (nums.empty()) {
             return nt ;
         }
@@ -30,7 +31,7 @@ public:
                     s = i ;
                 }
             }
-            
+
             if (f == -1) {
                 return nt ;
             }
