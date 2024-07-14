@@ -7,6 +7,7 @@ class Solution {
 public:
     int mySqrt(int x) {
         // Calculating the square root with binary search {O(log n)}
+        
         int l = 0;
         int r = x;
         int res = 0;
