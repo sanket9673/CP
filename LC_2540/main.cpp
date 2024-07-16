@@ -17,25 +17,5 @@ public:
         }
         return -1 ;
 
-
-        // int a = nums1.size() ;
-        // int b = nums2.size() ;
-        // vector<int> arr ;
-        // int count = 0 ;
-        // for (int i = 0; i < a; i++) {
-        //     arr.push_back(nums1[i]) ;
-        // }
-        // for (int i = 0; i < b; i++) {
-        //     arr.push_back(nums2[i]) ;
-        // }
-        // sort(arr.begin(), arr.end()) ;
-
-        // for (int i = 1; i < a + b; i++) {
-        //     if (arr[i] == arr[i - 1]) {
-        //         return arr[i] ;
-        //     }
-        // }
-        // return -1 ;
-
     }
 };
