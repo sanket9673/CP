@@ -4,7 +4,7 @@ using namespace std ;
 
 class Solution {
 public:
-    int getCommon(vector<int>& nums1, vector<int>& nums2) {
+    int getCommon(vector <int>& nums1, vector<int>& nums2) {
         int p = 0; 
         int q = 0;
         // TWO POINTER APPROACH (MAINTAINING TWO POINTS AT TWO ARRAYS GIVEN)
