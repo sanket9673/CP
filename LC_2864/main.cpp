@@ -17,6 +17,7 @@ public:
             s[s.length() - 1] = '1' ;
             return s ;
         }
+
         else {
             for (int i = 0; i < count - 1; i++) {
                 s[i] = '1' ;
@@ -24,6 +25,7 @@ public:
             s[s.length() - 1] = '1' ;
             return s ;
         }
+        
         return "" ;
     }
 };
