@@ -7,7 +7,7 @@ using namespace std ;
 
 class Solution {
 public:
-    int maxFrequencyElements(vector<int>& nums) {
+    int maxFrequencyElements(vector<int> &nums) {
         sort(nums.begin(), nums.end()) ;
     int count = 1;
     vector<int> arr ;
