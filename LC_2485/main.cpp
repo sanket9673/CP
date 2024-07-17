@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std ;
 
+// Find the Pivot Integer
+
 class Solution {
 public:
     int pivotInteger(int n) {
