@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std; 
 
 // Finding the winning player in the coin game
