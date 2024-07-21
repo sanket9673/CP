@@ -3,6 +3,7 @@ using namespace std ;
 
 // Find the Pivot Integer
 
+
 class Solution {
 public:
     int pivotInteger(int n) {
@@ -10,6 +11,7 @@ public:
         int pref[n] ;
         int sum = 0 ;
         int res ;
+        
         for (int i = 0 ; i < n; i++) {
             arr[i] = i + 1 ;
             sum += arr[i] ;
