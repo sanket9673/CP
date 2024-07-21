@@ -1,16 +1,20 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <algorithm>
 using namespace std ;
 
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
         // Arrange the string lexicographically from smallest to largest
+        // Then compare the first and last string 
+        
         string res = "" ;
         if (strs.empty()) {
             return res ;
         }
+
         else {
             sort(strs.begin(), strs.end()) ;
             string frt = strs[0] ;
@@ -25,6 +29,7 @@ public:
             }
             return res ;
         }
+
         return "" ;
     }
 };
