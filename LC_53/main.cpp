@@ -13,7 +13,6 @@ public:
             maxEnd = max(nums[i], maxEnd + nums[i]) ;
             res = max (maxEnd, res) ;
         }
-
         return res ;
     }
 };
