@@ -11,7 +11,6 @@ public:
         int mx = max(a.length(), b.length()) ;
         int mn = min(a.length(), b.length()) ;
         int flag = 0 ;
-
         for (int i = 0; i < mn; i++) {
             if(a[a.length() - 1 - i] == '1' && b[b.length() - 1 - i] == '1') {
                 if (flag == 0) {
