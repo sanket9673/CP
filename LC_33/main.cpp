@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std ;
 
 class Solution {
@@ -12,8 +13,10 @@ public:
             }
             return -1 ;
         }
+
         int l = 0 ;
         int m = n - 1 ;
+
         while (l <= m) {
             int mid = l + (m - l) / 2 ;
             if (target == nums[mid]) {
@@ -38,6 +41,7 @@ public:
                 }
             }
         }
+        
         return -1 ;
     }
 };
