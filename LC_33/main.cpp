@@ -13,7 +13,6 @@ public:
             }
             return -1 ;
         }
-
         int l = 0 ;
         int m = n - 1 ;
 
@@ -31,7 +30,6 @@ public:
                     l = mid + 1 ;
                 }
             }
-
             else {
                 if (nums[mid] < target && target <= nums[m]) {
                     l = mid + 1 ;
