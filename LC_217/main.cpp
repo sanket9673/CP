@@ -6,6 +6,7 @@ using namespace std ;
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
+        
         int count = 1 ;
 
         if (nums.size() == 1) {
