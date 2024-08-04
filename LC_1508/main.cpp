@@ -23,6 +23,7 @@ public:
                 }
             }            
             sort (res.begin(), res.end()) ;
+            
             // converting 1 index to 0 index
             int start = left - 1 ;
             int end = right - 1 ;
@@ -31,7 +32,7 @@ public:
             for (int i = start; i <= end; i++) {
                 totalsum = (totalsum + res[i]) % MOD ;
             }
-            
+
             return totalsum ;
         }
     }
