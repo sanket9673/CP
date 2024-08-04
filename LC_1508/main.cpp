@@ -5,8 +5,9 @@ using namespace std ;
 class Solution {
 public:
     int rangeSum(vector<int>& nums, int n, int left, int right) {
-        
+
         const int MOD = 1e9 + 7; //to handl overflow condition
+        
         if (n == 1) {
             return nums[0] ;
         }
