@@ -21,9 +21,10 @@ public:
                     sum += nums[j] ;
                     res.push_back(sum) ;
                 }
-            }            
+            }       
+                 
             sort (res.begin(), res.end()) ;
-            
+
             // converting 1 index to 0 index
             int start = left - 1 ;
             int end = right - 1 ;
