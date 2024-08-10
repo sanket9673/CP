@@ -14,13 +14,14 @@ public:
         for (int i = 0; i < t.length(); i++) {
             arr[t[i]]-- ;
         }
-        
+
         char res;
         for (int i = 0; i < 256; i++) {
             if (arr[i] < 0) {
                 res = char(i) ;
             }
         }
+        
         return res ;
     }
 };
