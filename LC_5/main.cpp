@@ -11,9 +11,9 @@ public:
             return s ;
         }
         for (int i = 0; i < s.length(); i++) {
+            int left, right ;
             
             // for odd length palindrome
-            int left, right ;
             left = i ;
             right = i ;
             while (left >= 0 && right <= s.length() && s[left] == s[right]) {
@@ -37,7 +37,7 @@ public:
                 right++ ;
             }
         }
-        
+
         return res ;
     }
 };
