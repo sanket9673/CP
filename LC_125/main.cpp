@@ -24,12 +24,14 @@ public:
                 str += s[i];
             }
         }
-        
+
         res = str ;
         reverse(res.begin(), res.end()) ;
+
         if (str == res) {
             return true ;
         }
+        
         else {
             return false ;
         }
