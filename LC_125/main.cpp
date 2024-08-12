@@ -12,6 +12,7 @@ public:
         
         string str = "" ;
         string res ;
+
         for (int i = 0; i < s.length(); i++) {
             if (s[i] >= 'a' && s[i] <= 'z') {
                 str += s[i] ;
@@ -23,6 +24,7 @@ public:
                 str += s[i];
             }
         }
+        
         res = str ;
         reverse(res.begin(), res.end()) ;
         if (str == res) {
