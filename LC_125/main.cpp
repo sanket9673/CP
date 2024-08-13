@@ -31,7 +31,6 @@ public:
         if (str == res) {
             return true ;
         }
-        
         else {
             return false ;
         }
