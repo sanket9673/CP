@@ -9,7 +9,7 @@ public:
     vector<int> majorityElement(vector<int>& nums) {
         int n = nums.size() ;
         int sz = n / 3 ;
-        
+
         if (n < 3) {
             if (n == 2) {
                 if (nums[0] == nums[1]) {
@@ -18,6 +18,7 @@ public:
             }
             return nums ;
         }
+        
         sort(nums.begin(), nums.end()); 
         int count = 1 ;
         int smp ;
