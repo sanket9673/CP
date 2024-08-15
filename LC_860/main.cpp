@@ -8,7 +8,7 @@ public:
         if (bills[0] > 5) {
             return false ;
         }
-        
+
         int count5 = 0 ;
         int count10 = 0;
 
@@ -16,6 +16,7 @@ public:
             if (bills[i] == 5) {
                 count5++ ;
             }
+
             else if (bills[i] == 10) {
                 if (count5 == 0) {
                     return false ;
@@ -23,6 +24,7 @@ public:
                 count10++ ;
                 count5 -- ;
             }
+            
             else if (bills[i] == 20) {
                 if (count10 > 0 && count5 > 0) {
                     count10--;
