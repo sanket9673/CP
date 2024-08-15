@@ -24,7 +24,7 @@ public:
                 count10++ ;
                 count5 -- ;
             }
-            
+
             else if (bills[i] == 20) {
                 if (count10 > 0 && count5 > 0) {
                     count10--;
@@ -36,6 +36,7 @@ public:
                 }
             }
         }
+        
         return true ;
     }
 };
