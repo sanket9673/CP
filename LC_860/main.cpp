@@ -5,6 +5,7 @@ using namespace std ;
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
+        
         if (bills[0] > 5) {
             return false ;
         }
@@ -36,7 +37,7 @@ public:
                 }
             }
         }
-        
+
         return true ;
     }
 };
