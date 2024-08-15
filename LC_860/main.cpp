@@ -8,6 +8,7 @@ public:
         if (bills[0] > 5) {
             return false ;
         }
+        
         int count5 = 0 ;
         int count10 = 0;
 
