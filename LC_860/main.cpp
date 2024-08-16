@@ -11,7 +11,6 @@ public:
         }
         int count5 = 0 ;
         int count10 = 0;
-
         for (int i = 0; i < bills.size(); i++) {
             if (bills[i] == 5) {
                 count5++ ;
