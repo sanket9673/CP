@@ -11,11 +11,12 @@ public:
         int mx = arrays[0].back() ; // To get the last element --> x arr[0][-1]
 
         for (int i = 1; i < arrays.size(); i++) {
-            
+
             dist = max(dist, abs(mx - arrays[i][0])) ;
             dist = max(dist, abs(mn - arrays[i].back())) ;
             mn = min(mn, arrays[i][0]) ;
             mx = max(mx, arrays[i].back()) ;
+            
         }
         return dist ;
     }
