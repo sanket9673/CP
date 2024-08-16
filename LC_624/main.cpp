@@ -16,8 +16,9 @@ public:
             dist = max(dist, abs(mn - arrays[i].back())) ;
             mn = min(mn, arrays[i][0]) ;
             mx = max(mx, arrays[i].back()) ;
-            
+
         }
+        
         return dist ;
     }
 };
