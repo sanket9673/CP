@@ -7,6 +7,7 @@ public:
         if ((num[num.length() - 1] - '0') % 2 != 0) {
             return num ;
         }
+        
         string res = "" ;
         bool found = false ;
         int count = 0 ;
