@@ -11,13 +11,14 @@ public:
         string res = "" ;
         bool found = false ;
         int count = 0 ;
-        
+
         for (int i = 0; i < num.length(); i++) {
             if ((num[i] - '0') % 2 != 0) {
                 count = i ;
                 found = true ;
             }
         }
+        
         for (int i = 0 ; i <= count; i++) {
             res += num[i] ;
         }
