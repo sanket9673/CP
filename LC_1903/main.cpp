@@ -22,10 +22,11 @@ public:
         for (int i = 0 ; i <= count; i++) {
             res += num[i] ;
         }
-        
+
         if (found == false) {
             return "" ;
         }
+        
         return res ;
     }
 };
