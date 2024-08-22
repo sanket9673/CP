@@ -21,7 +21,7 @@ public:
                 demo += s[i] ;
             }
         }
-        
+
         if (demo != "") {
             arr.push(demo) ;
         }
@@ -33,6 +33,7 @@ public:
                 res += " " ;
             }
         }
+        
         return res ;
     }
 };
