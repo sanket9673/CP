@@ -9,6 +9,7 @@ public:
         string res = "" ;
         string demo = "" ;
         for (int i = 0; i < s.length(); i++) {
+            
             if (isspace(s[i])) {
                 if (demo != "") {
                     arr.push(demo) ;
