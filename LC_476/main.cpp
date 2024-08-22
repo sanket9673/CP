@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <climits>
+#include <algorithm>
 using namespace std ;
 
 class Solution {
