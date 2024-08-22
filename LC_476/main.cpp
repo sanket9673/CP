@@ -10,7 +10,7 @@ public:
     int findComplement(int num) {
         string res = "" ;
         long long result = 0 ;
-        
+
         while (num > 0) {
             res += to_string(num % 2) ;
             if (num / 2 < 0) {
@@ -18,6 +18,7 @@ public:
             }
             num = num / 2 ;
         }
+        
         reverse (res.begin(), res.end()) ;
         for (int i = 0; i < res.length(); i++) {
             if (res[i] == '0') {
