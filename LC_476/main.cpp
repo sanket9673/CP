@@ -28,10 +28,11 @@ public:
                 res[i] = '0';
             }
     }
-    
+
         for (int i = res.length() - 1; i >= 0; i--) {
             result += (res[i] - '0') * pow(2, res.length() -1 - i) ;
         }
+        
         if (result >= INT_MAX - 1) {
             return INT_MAX - 2 ;
         }
