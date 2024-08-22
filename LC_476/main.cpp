@@ -18,7 +18,7 @@ public:
             }
             num = num / 2 ;
         }
-        
+
         reverse (res.begin(), res.end()) ;
         for (int i = 0; i < res.length(); i++) {
             if (res[i] == '0') {
@@ -28,6 +28,7 @@ public:
                 res[i] = '0';
             }
     }
+    
         for (int i = res.length() - 1; i >= 0; i--) {
             result += (res[i] - '0') * pow(2, res.length() -1 - i) ;
         }
