@@ -10,6 +10,7 @@ public:
     int findComplement(int num) {
         string res = "" ;
         long long result = 0 ;
+        
         while (num > 0) {
             res += to_string(num % 2) ;
             if (num / 2 < 0) {
