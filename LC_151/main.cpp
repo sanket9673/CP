@@ -16,7 +16,6 @@ public:
                     demo = "" ;
                 }
             }
-            
             if (!isspace(s[i])) {
                 demo += s[i] ;
             }
