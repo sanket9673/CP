@@ -21,7 +21,6 @@ public:
         else {
             return false ;
         }
-
         // if (n <= 0) {
         //     return false ;
         // }
