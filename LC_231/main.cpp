@@ -18,7 +18,6 @@ public:
         else if (static_cast<int>(log2(n)) == log2(n)) {
             return true ;
         }
-
         else {
             return false ;
         }
