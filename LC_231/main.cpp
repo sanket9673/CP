@@ -24,7 +24,6 @@ public:
         // if (n <= 0) {
         //     return false ;
         // }
-
         // else if (n > 0 && (n & n - 1 )== 0) {
         //     return true ;
         // }
