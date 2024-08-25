@@ -12,7 +12,6 @@ public:
         if (n == 0) {
             return false ;
         }
-
         else if (n < 0) {
             return false ;
         }
