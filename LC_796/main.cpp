@@ -7,6 +7,7 @@ public:
         if (s.length() == 1) {
             return true ;
         }
+        
         if (s.length() != goal.length()) {
             return false ;
         }
