@@ -13,9 +13,10 @@ public:
         }
 
         int count = 0 ;
-        
+
         while (count < s.length()) {
             s = s.substr(1) + s[0] ;
+            
             if (s == goal) {
                 return true ;
             }
