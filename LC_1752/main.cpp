@@ -1,14 +1,17 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std ;
 
 class Solution {
 public:
     bool check(vector<int>& nums) {
+
         int n = nums.size() ;
         if (n < 3) {
             return true ;
         }
+
         vector<int> arr(nums) ;
         // arr = nums ;
         sort(arr.begin(), arr.end()) ;
