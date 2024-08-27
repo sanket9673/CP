@@ -6,6 +6,7 @@ public:
     int passThePillow(int n, int time) {
         int step = 1;
         int k = 1;
+        
         while (time > 0){
             if(k==n){
                 step = -1;
