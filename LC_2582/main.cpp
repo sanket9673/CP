@@ -11,9 +11,11 @@ public:
             if(k==n){
                 step = -1;
             }
+
             if(k==1){
                 step = 1;
             }
+            
             k += step;
             time -= 1;
         }
