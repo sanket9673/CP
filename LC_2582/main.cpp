@@ -18,7 +18,7 @@ public:
             time -= 1;
         }
         return k;
-        
+
         // int idx = 1 ;
         // int res = 1 ;
         // while (time > 0) {
@@ -32,8 +32,7 @@ public:
         //         if (idx == 1) {
         //             res = 1 ;
         //         }
-        //     }
-            
+        //     }   
         //     time-- ;
         // }
         // return idx ;
