@@ -11,7 +11,6 @@ public:
         if (n < 3) {
             return true ;
         }
-
         vector<int> arr(nums) ;
         // arr = nums ;
         sort(arr.begin(), arr.end()) ;
