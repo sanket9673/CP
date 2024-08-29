@@ -18,9 +18,11 @@ public:
             int temp = arr[0] ;
             arr.erase(arr.begin()) ;
             arr.push_back(temp) ;
+            
             if (arr == nums) {
                 return true ;
             }
+
             n-- ;
         }
         return false ;
