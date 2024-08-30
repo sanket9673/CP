@@ -6,6 +6,7 @@ using namespace std ;
 class Solution {
 public:
     bool canBeEqual(vector<int>& target, vector<int>& arr) {
+        
         if (target.size() != arr.size()) {
             return false ;
         }
@@ -19,7 +20,7 @@ public:
             }
         }
         return true ;
-        
+
         // std::unordered_map<int, int> countMap;
 
         // // Count occurrences in target
