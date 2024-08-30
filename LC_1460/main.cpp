@@ -9,6 +9,7 @@ public:
         if (target.size() != arr.size()) {
             return false ;
         }
+        
         sort (target.begin(), target.end());
         sort (arr.begin(), arr.end()) ;
         for (int i = 0; i < target.size(); i++) {
