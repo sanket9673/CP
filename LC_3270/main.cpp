@@ -23,6 +23,7 @@ public:
                 c = '0' + c ;
             }
         }
+        
         int count = 0 ;
         while (count < 4) {
             int val = min(a[count] - '0', b[count] - '0') ;
