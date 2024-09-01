@@ -8,6 +8,7 @@ public:
         string a = to_string(num1) ;
         string b = to_string(num2) ;
         string c = to_string(num3) ;
+        
         if (a.length() < 4) {
             while (a.length() != 4) {
                 a = '0' + a ;
@@ -23,7 +24,7 @@ public:
                 c = '0' + c ;
             }
         }
-        
+
         int count = 0 ;
         while (count < 4) {
             int val = min(a[count] - '0', b[count] - '0') ;
