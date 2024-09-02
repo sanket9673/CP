@@ -7,6 +7,7 @@ public:
     int chalkReplacer(vector<int>& chalk, int k) {
         int count = 0 ;
         long long sum = 0 ;
+        
         while (count < chalk.size()) {
             sum += chalk[count] ;
             count++ ;
