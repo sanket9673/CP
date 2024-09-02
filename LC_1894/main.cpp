@@ -12,9 +12,10 @@ public:
             sum += chalk[count] ;
             count++ ;
         }
+        
         k %= sum ;
         count = 0 ;
-        
+
         while (true) {
             if (k < chalk[count]) {
                 break ;
