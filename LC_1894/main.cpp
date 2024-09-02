@@ -12,7 +12,7 @@ public:
             sum += chalk[count] ;
             count++ ;
         }
-        
+
         k %= sum ;
         count = 0 ;
 
@@ -27,6 +27,7 @@ public:
                 count = 0 ;
             }
         }
+        
         return count ;
     }
 };
