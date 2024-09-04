@@ -16,7 +16,6 @@ public:
         }
 
         k -= 1 ;
-
         if (k > 0) {
             
             while (k >= 1) {
