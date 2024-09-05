@@ -17,7 +17,6 @@ public:
 
         k -= 1 ;
         if (k > 0) {
-            
             while (k >= 1) {
                 int r = 0;
                 while (res > 0) {
