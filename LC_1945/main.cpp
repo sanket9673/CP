@@ -14,7 +14,6 @@ public:
         for (int i = 0; i < arr.size(); i++) {
             res += arr[i] - '0' ;
         }
-
         k -= 1 ;
         if (k > 0) {
             while (k >= 1) {
