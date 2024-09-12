@@ -11,9 +11,10 @@ public:
         for (int i = 0; i < allowed.length(); i++) {
             arr[allowed[i]]++ ;
         }
-        
+
         int count = 0 ;
         int present = 0 ;
+        
         while(count < words.size()) {
             for (int i = 0; i < words[count].length(); i++) {
                 if (arr[words[count][i]] == 0) {
