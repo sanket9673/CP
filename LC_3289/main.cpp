@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std ;
+
 class Solution {
 public:
     vector<int> getSneakyNumbers(vector<int>& nums) {
