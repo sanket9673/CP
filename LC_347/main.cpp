@@ -27,7 +27,7 @@ public:
         vector<int> res ;   
         int  i = 0 ;
         while (i < k) {
-            res.push_back(vec[i].first); ;
+            res.push_back(vec[i].first); // printing ele from vector directly
             i++ ;
         }
         return res ;
