@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std ;
+
 class Solution {
 public:
     static bool compare(const pair<string, int> a, const pair<string, int> b) {
