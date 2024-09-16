@@ -4,6 +4,9 @@
         "deque": "cpp",
         "string": "cpp",
         "array": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "cstdlib": "cpp"
     }
 }
