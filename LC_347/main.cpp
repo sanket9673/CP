@@ -1,3 +1,9 @@
+#include <iostream>
+#include <unordered_map>
+#include <vector>
+#include <algorithm>
+using namespace std ;
+
 class Solution {
 public:
     static bool compare(const pair<int, int> a, const pair<int,int> b) {
