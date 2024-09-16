@@ -1,4 +1,7 @@
 #include <iostream>
+#include <unordered_map>
+#include <vector>
+#include <stack>
 using namespace std ;
 
 class Solution {
