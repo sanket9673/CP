@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std ;
+
 class Solution {
 public:
     static bool compare(string &a, string &b) {
