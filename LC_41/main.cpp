@@ -13,7 +13,6 @@ public:
         //         x.insert(nums[i]) ;
         //     }
         // }
-
         long long res = 0; 
         int i = 1 ;
         while (true) {
