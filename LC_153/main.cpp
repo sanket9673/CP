@@ -9,6 +9,7 @@ public:
         if (nums.size() < 2) {
             return nums[0] ;
         }
+        
         int low = 0 ;
         int high = nums.size() - 1 ;
         int res = 0 ;
