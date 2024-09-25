@@ -9,13 +9,14 @@ public:
         if (nums.size() < 2) {
             return nums[0] ;
         }
-        
+
         int low = 0 ;
         int high = nums.size() - 1 ;
         int res = 0 ;
         if (nums[low] <= nums[high]) {
             return nums[low] ; //Means they are sorted and not rotated
         }
+        
         while (low <= high) {
             int mid = low + (high - low) / 2 ;
 
