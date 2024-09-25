@@ -16,7 +16,7 @@ public:
         if (nums[low] <= nums[high]) {
             return nums[low] ; //Means they are sorted and not rotated
         }
-        
+
         while (low <= high) {
             int mid = low + (high - low) / 2 ;
 
@@ -34,6 +34,7 @@ public:
                 high = mid - 1 ; // Sorted so they are in increasing order, must lie in left
             }
         }
+        
         return -1 ;
         // if (nums.size() < 2) {
         //     return nums[0] ;
