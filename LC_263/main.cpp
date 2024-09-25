@@ -8,6 +8,7 @@ public:
     bool isUgly(int n) {
         unordered_set<int> x = {2,3,5} ;
         vector<long long> fact ;
+        
         if (n <= 0) {
             return false;
         }
