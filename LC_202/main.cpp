@@ -6,6 +6,7 @@ class Solution {
 public:
     bool isHappy(int n) {
         unordered_set<long long> x ;
+        
         while (x.count(n) == 0) {
             x.insert(n) ;
             int sum = 0 ;
