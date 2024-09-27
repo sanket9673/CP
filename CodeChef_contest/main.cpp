@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int t;
     cin >> t;
-    
+
     for (int k = 0; k < t; k++){
         int n;
         cin >> n;
@@ -21,7 +21,8 @@ int main() {
 
         if (res == arr) {
             cout << 0 << endl; 
-        } else {
+        } 
+        else {
             int mx = 0;
             
             for (int i = 0; i < n; i++) {
