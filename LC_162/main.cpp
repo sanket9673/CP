@@ -13,6 +13,7 @@ public:
             if ((mid == 0 || nums[mid-1] <= nums[mid]) && (mid == nums.size() - 1 || nums[mid] >= nums[mid + 1])) {
                 return mid ;
             }
+            // Handing the edge cases and returing the answer
             else if (mid > 0 && (nums[mid] <= nums[mid - 1])) {
                 r = mid - 1 ;
             }
@@ -20,7 +21,7 @@ public:
                 l = mid + 1 ;
             }
         }
-        
+
         return -1 ;
     }
 };
