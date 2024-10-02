@@ -1,6 +1,14 @@
+#include <iostream>
+using namespace std ;
+
 class Solution {
 public:
     int trailingZeroes(int n) {
+        int res = 0 ;
+        for (int i = 5; i <= n; i*=5)  {
+            res += (n / i) ;
+        }
+        return res ;
         // long long fact = 1;
         // for (int i = 2; i <= n; i++) {
         //     fact *= i;
@@ -33,11 +41,5 @@ public:
         // }
         // return min(count2, count5) ;
         // // LEADING TO RUNTIME ERROR 
-
-        int res = 0 ;
-        for (int i = 5; i <= n; i*=5)  {
-            res += (n / i) ;
-        }
-        return res ;
     }
 };
