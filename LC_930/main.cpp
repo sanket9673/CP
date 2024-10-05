@@ -14,10 +14,10 @@ public:
         for (int i = 0 ; i < nums.size(); i++) {
             current += nums[i] ;
             while (current > goal) {
-                current -= nums[l] ;
+                current -= nums[l] ;   // if curr exceed sum, decrease it by removing last l element
                 l += 1 ;
             }
-            sum += (i - l + 1) ;
+            sum += (i - l + 1) ;   // Keeping sum of subarrays form eg. from 0-2 there are 3 subarrays - 01 12 02
         }
         return sum ;
     }
