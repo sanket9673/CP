@@ -6,7 +6,7 @@ class Solution {
 public:
     static int findingSubarrays(vector<int>& nums, int goal) {
         if (goal < 0) {
-            goal = 0 ;
+            goal = 0 ;   // if goal = -1, make it to 0 
         }
         int l = 0 ;
         int current = 0 ;
@@ -27,5 +27,6 @@ public:
             return findingSubarrays(nums, goal) ;    
         }
         return findingSubarrays(nums, goal) - findingSubarrays(nums, goal - 1) ;
+        // the idea is if we find subarray with goal <= 2 and goal <= 1.........after subtracting both we get mid val which is goal == 2
     }
 };
