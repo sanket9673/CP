@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std ;
+
 class Solution {
 public:
     static int zeroOccur(vector<int>& nums, int k) {
