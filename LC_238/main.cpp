@@ -32,6 +32,9 @@ public:
         //     res.push_back(val) ;
         // }
         // return res ;
+
+
+        // Travelling from left and then right keeping prev prod store .
         int l = 1 ;
         int r = 1 ;
         vector<int> res(nums.size() , 1) ;
