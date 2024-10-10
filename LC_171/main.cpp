@@ -11,6 +11,7 @@ public:
             n -= 1 ;
             res += (c - 64)*(pow(26, n)) ;
         }
+        
         return res ;
     }
 };
