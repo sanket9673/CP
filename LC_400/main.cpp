@@ -3,6 +3,7 @@ using namespace std ;
 
 class Solution {
 public:
+
     int findNthDigit(int n) {
         long long a = 1 ;
         long long count = 9 ;
@@ -16,5 +17,6 @@ public:
         long long num = start + (n - 1)/a ;
         string numStr = to_string(num);
         return numStr[(n - 1) % a] - '0'; 
+        
     }
 };
