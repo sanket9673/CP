@@ -4,6 +4,7 @@ using namespace std ;
 class Solution {
 public:
     bool checkValidString(string s) {
+        
         // int res = 0 ;
         // int star = 0 ;
         // for (int i = 0 ; i < s.length(); i++) {
@@ -26,6 +27,7 @@ public:
         // else {
         //     return false ;
         // }
+
         int low = 0, high = 0  ;
         for (char c : s) {
             if (c == '(') {
