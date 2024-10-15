@@ -1,3 +1,6 @@
+#include <iostream>
+uisng namespace std ;
+
 class Solution {
 public:
     bool check(vector<int>& nums1, vector<int>& nums2, int diff) {
