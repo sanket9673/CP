@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std ;
+
 class Solution {
 public:
     long long countSubstrings(string s, char c) {
