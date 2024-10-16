@@ -10,7 +10,7 @@ public:
         bool vowel = false ;
         int count = 0 ;
         bool consonant = false ;
-        
+
         for (int i = 0; i < word.size(); i++) {
             if (isalpha(word[i])) {
                 if(x.count(word[i]) != 0) {
@@ -38,6 +38,7 @@ public:
                 return false ;
             }
         }
+        
         else {
             return false ;
         }
