@@ -5,6 +5,7 @@ using namespace std ;
 class Solution {
 public:
     bool isValid(string word) {
+        
         unordered_set<char> x = {'a','e','i','o','u','A','E','I','O','U'} ;
         bool digit = false ;
         bool vowel = false ;
@@ -38,7 +39,7 @@ public:
                 return false ;
             }
         }
-        
+
         else {
             return false ;
         }
