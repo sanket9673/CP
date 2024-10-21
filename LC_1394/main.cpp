@@ -7,7 +7,7 @@ using namespace std ;
 class Solution {
 public:
     int findLucky(vector<int>& arr) {
-        
+
         unordered_map<int, int> x ;
         int res = INT_MIN ;
         for (int i = 0 ; i < arr.size(); i++) {
@@ -19,5 +19,6 @@ public:
             }
         }
         return (res != INT_MIN) ? res : -1 ;
+        
     }
 };
