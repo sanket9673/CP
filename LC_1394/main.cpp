@@ -17,7 +17,6 @@ public:
                 res = max(res, pair.first) ;
             }
         }
-        
         return (res != INT_MIN) ? res : -1 ;
     }
 };
