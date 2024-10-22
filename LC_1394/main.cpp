@@ -18,7 +18,5 @@ public:
             }
         }
         return (res != INT_MIN) ? res : -1 ;
-        
-
     }
 };
