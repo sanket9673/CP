@@ -17,7 +17,6 @@ public:
         }
 
 
-
         for (const auto& pair : x) {
             if (pair.first == pair.second) {
                 res = max(res, pair.first) ;
