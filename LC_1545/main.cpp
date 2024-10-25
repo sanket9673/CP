@@ -2,6 +2,7 @@
 #include <algorithm>
 using namespace std ;
 
+
 // class Solution {
 // public:
 //     static string flip(string res) {
