@@ -42,13 +42,15 @@ public:
 
         // Base case
         if (n == 1) return '0';
-        
+
 
         int mid = (length + 1) / 2; // Middle index
 
         if (k == mid) {
             return '1'; // Middle character is always '1'
-        } else if (k < mid) {
+        } 
+        
+        else if (k < mid) {
             // If k is in the first half, it corresponds to S_{n-1}
             return findKthBit(n - 1, k);
         } else {
