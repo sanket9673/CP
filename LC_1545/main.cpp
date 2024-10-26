@@ -39,8 +39,10 @@ public:
         // Calculate the length of S_n
         int length = (1 << n) - 1; // 2^n - 1
 
+
         // Base case
         if (n == 1) return '0';
+        
 
         int mid = (length + 1) / 2; // Middle index
 
