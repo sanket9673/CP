@@ -53,7 +53,9 @@ public:
         else if (k < mid) {
             // If k is in the first half, it corresponds to S_{n-1}
             return findKthBit(n - 1, k);
-        } else {
+        } 
+        
+        else {
             // If k is in the second half, find the corresponding index in S_{n-1}
             // Calculate the index in the flipped part
             // The corresponding index in S_{n-1}
