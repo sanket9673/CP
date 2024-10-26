@@ -33,6 +33,8 @@ using namespace std ;
 //         return res[k-1] ;
 //     }
 // };
+
+
 class Solution {
 public:
     char findKthBit(int n, int k) {
@@ -65,6 +67,6 @@ public:
             // Flip the result
             return (result == '0') ? '1' : '0'; // Flip '0' to '1' and '1' to '0'
         }
-        
+
     }
 };
