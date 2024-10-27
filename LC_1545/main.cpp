@@ -31,11 +31,8 @@ using namespace std ;
 //             count++ ;
 //         }
 //         return res[k-1] ;
-
 //     }
 // };
-
-
 class Solution {
 public:
     char findKthBit(int n, int k) {
