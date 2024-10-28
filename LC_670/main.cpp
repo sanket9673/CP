@@ -5,7 +5,7 @@ using namespace std ;
 class Solution {
 public:
     int maximumSwap(int num) {
-        
+
         string res = to_string(num) ;
         int n = res.size() ;
 
@@ -13,7 +13,6 @@ public:
         for (int i = 0 ; i < n; i++) {
             last[res[i] - '0'] = i ;
         }
-
         for (int i = 0 ; i < n ; i++) {
             for (int d = 9 ; d > res[i] - '0'; d--) {
                 if (last[d] > i) {
