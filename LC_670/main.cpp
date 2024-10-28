@@ -5,6 +5,7 @@ using namespace std ;
 class Solution {
 public:
     int maximumSwap(int num) {
+        
         string res = to_string(num) ;
         int n = res.size() ;
 
@@ -21,7 +22,7 @@ public:
                 }
             }
         }
-        
+
         return num ;
     }
 };
