@@ -8,7 +8,6 @@ public:
 
         string res = to_string(num) ;
         int n = res.size() ;
-
         vector<int> last(10, -1) ;
         for (int i = 0 ; i < n; i++) {
             last[res[i] - '0'] = i ;
