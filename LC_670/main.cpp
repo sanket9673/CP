@@ -5,6 +5,7 @@ using namespace std ;
 class Solution {
 public:
     int maximumSwap(int num) {
+        
         string res = to_string(num) ;
         int n = res.size() ;
         vector<int> last(10, -1) ;
