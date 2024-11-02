@@ -7,8 +7,9 @@ public:
         // if (s.length() < 2) {
         //     return s ;
         // }
-        
+
         string res = "" ;
+        
         char c = s[0] ;
         res += c ;
         int count = 1 ;
