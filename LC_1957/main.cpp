@@ -4,9 +4,10 @@ using namespace std ;
 class Solution {
 public:
     string makeFancyString(string s) {
-        if (s.length() < 2) {
-            return s ;
-        }
+        // if (s.length() < 2) {
+        //     return s ;
+        // }
+        
         string res = "" ;
         char c = s[0] ;
         res += c ;
@@ -24,7 +25,7 @@ public:
                 res += c ;
             }
         }
-        
+
         return res ;
     }
 };
