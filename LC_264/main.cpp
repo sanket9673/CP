@@ -8,7 +8,7 @@ public:
         vector<int> res(n) ;
         res[0] = 1 ;
         int i2 = 0 , i3 = 0 , i5 = 0 ;
-        
+
         for (int i = 1; i < n; i++) {
             int next2 = res[i2] * 2 ;
             int next3 = res[i3] * 3 ;
@@ -27,6 +27,7 @@ public:
                 i5++ ;
             }
         }
+        
         return res[n-1] ;
     }
 };
