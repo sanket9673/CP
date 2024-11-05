@@ -12,8 +12,6 @@ public:
             int next2 = res[i2] * 2 ;
             int next3 = res[i3] * 3 ;
             int next5 = res[i5] * 5 ;
-
-
             int nextNum = min(next2, min(next3, next5)) ;
             res[i] = nextNum ;
             
