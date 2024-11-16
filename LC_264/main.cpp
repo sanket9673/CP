@@ -14,7 +14,6 @@ public:
             int next5 = res[i5] * 5 ;
             int nextNum = min(next2, min(next3, next5)) ;
             res[i] = nextNum ;
-            
             if (nextNum == next2) {
                 i2++ ;
             }
