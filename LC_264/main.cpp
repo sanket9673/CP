@@ -23,7 +23,7 @@ public:
             if (nextNum == next5) {
                 i5++ ;
             }
-        
+        }
         return res[n-1] ;
     }
 };
