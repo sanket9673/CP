@@ -5,6 +5,7 @@ using namespace std ;
 class Solution {
 public:
     int nthUglyNumber(int n) {
+        
         vector<int> res(n) ;
         res[0] = 1 ;
         int i2 = 0 , i3 = 0 , i5 = 0 ;
