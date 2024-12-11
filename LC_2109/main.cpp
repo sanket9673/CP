@@ -20,7 +20,6 @@ public:
             idx++ ;
         }
 
-        
         return res;
     }
 };
