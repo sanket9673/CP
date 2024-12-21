@@ -15,7 +15,6 @@ public:
             nums[idx] *= multiplier ;
             k-- ;
         }
-
         return nums ;
     }
 };
