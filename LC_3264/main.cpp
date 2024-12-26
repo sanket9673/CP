@@ -16,7 +16,6 @@ public:
             k-- ;
         }
         
-        
         return nums ;
     }
 };
