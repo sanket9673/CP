@@ -17,6 +17,5 @@ public:
         ListNode* current = node->next ;
         node->next = node->next->next ;
         delete(current) ;
-        
     }
 };
