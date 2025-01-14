@@ -27,6 +27,5 @@ public:
             x.insert(curr -> next) ;
         }
         return NULL ;
-
     }
 };
