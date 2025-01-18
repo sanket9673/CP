@@ -1,3 +1,8 @@
+#include <iostream>
+#include <climits>
+#include <vector>
+using namespace std ;
+
 class Solution {
 public:
     int maxAdjacentDistance(vector<int>& nums) {
