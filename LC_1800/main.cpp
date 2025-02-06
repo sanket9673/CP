@@ -12,6 +12,7 @@ public:
                 d += nums[i] ;
                 x = nums[i] ;
             }
+            
             else {
                 x = nums[i] ;
                 res = max(d, res) ;
