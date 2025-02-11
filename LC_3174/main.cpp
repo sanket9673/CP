@@ -14,6 +14,7 @@ class Solution {
                     else x.pop() ;
                 }
             }
+            
             while (!x.empty()) {
                 res = x.top() + res;
                 x.pop() ;
