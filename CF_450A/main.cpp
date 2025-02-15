@@ -22,6 +22,7 @@ int main() {
             i++ ;
         }
     }
+    
     cout << val + 1 << endl ;
     return 0 ;
 }
