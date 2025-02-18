@@ -4,29 +4,29 @@ using namespace std ;
 int main() {
     int t ;
     cin >> t ;
+    
     while (t--) {
         int n ;
         cin >> n ;
-        vector<int> arr(n-2) ;
-        for (int i = 0 ; i < n-2; i++) cin >> arr[i] ;
-        bool possible = true ;
-        vector<int> res(n, 1) ;
-        for (int i = 1; i < n - 1; i++) {
-            if (arr[i - 1] == 1) {
-                res[i] = res[i-1] ;
+        bool fnd = true ;
+        int x = n - 2 ;
+        vector<int> arr(x); 
+        for (int i = 0; i < x; i++)  cin >> arr[i] ;
+        
+        //101
+        if (x >= 3) {
+            for (int i = 1; i < x - 1; i++) {
+                if (arr[i] == 0 && arr[i-1] == 1 && arr[i+1] == 1) {
+                    fnd = false ;
+                    break ;
+                }
             }
-            else res[i] = res[i-1] + 1 ;
         }
         
-        for (int i = 1; i < n-1; i++) {
-            if((arr[i-1] == 1 && res[i] != res[i-1]) || 
-            (arr[i-1] == 0) && res[i] == res[i-1] && res[i] == res[i+1]) {
-                possible = false ;
-                break ;
-            }
-        }
-        if (possible) cout << "YES" << endl ;
+        if (fnd == true) cout << "YES" << endl ;
         else cout << "NO" << endl ;
     }
+    
+    
     return 0 ;
 }

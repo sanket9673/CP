@@ -17,6 +17,7 @@
         "bitset": "cpp",
         "utility": "cpp",
         "chrono": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "ostream": "cpp"
     }
 }
