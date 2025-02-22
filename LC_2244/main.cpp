@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std ;
+
 class Solution {
     public:
         int minimumRounds(vector<int>& tasks) {
