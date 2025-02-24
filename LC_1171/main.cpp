@@ -19,7 +19,8 @@ class Solution {
                 prevsum += curr -> val ;
                 x[prevsum] = curr ;
             }
-    
+
+            
             prevsum = 0 ;
             for (ListNode *curr = temp ; curr != NULL ; curr = curr -> next) {
                 prevsum += curr -> val ;
