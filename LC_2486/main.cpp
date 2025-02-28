@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std ;
+
 class Solution {
     public:
         int appendCharacters(string s, string t) {
