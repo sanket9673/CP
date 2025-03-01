@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std ;
+
 class Solution {
     public:
         int numSteps(string s) {
@@ -22,7 +25,6 @@ class Solution {
                 else {
                     s.pop_back() ;
                 }
-                cout << s << endl ;
                 res++ ;
             }
             return res ;
