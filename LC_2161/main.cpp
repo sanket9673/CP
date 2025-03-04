@@ -16,6 +16,7 @@ class Solution {
             // for (int i : arr2) res.push_back(i) ;
             // return res ;
             // 2 POINTER APPROACH
+            
             vector<int> res(nums.size(), 0) ;
             int l = 0, r = nums.size() - 1 ;
             for (int i = 0 , j  = nums.size() - 1; i < nums.size(); i++, j--) {
