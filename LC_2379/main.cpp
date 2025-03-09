@@ -4,6 +4,7 @@ using namespace std ;
 
 class Solution {
     public:
+    
         int minimumRecolors(string blocks, int k) {
             // SLIDING WINDOW
             int res = INT_MAX ;
